@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+    <style>
+        #box1 {
+            background-color: #3afaff;
+            background-image: linear-gradient(45deg, #3afaff 13%, #fd4dff 60%, #f91288 100%);
+            display: inline-block;
+            width: 100vh;
+            height: 100vh;
+            padding: 40px;
+        }
+
+        #box2 {
+            height: 550px;
+            width: 400px;
+            padding: 10px;
+            background-color: white;
+            border-radius: 10px;
+            border: 1px solid white;
+            margin-left: 400px;
+        }
+
+        #submit {
+            height: 40px;
+            width: 290px;
+            border-radius: 20px;
+            border: 0px solid;
+            background-color: #3afaff;
+            background-image: linear-gradient(45deg, #3afaff 13%, #fd4dff 60%, #f91288 100%);
+            margin-left: 65px;
+        }
+
+        #inputbox {
+            display: inline;
+         border-top: none;
+         border-left: none;
+         border-right: none;
+            margin: 1px 10px 0px 4px;
+            width: 240px;
+        }
+
+        #logo {
+            display: inline-block;
+            color: #828286;
+            width: 290px;
+            margin: 5px auto 10px 40px;
+        }
+
+        label {
+            margin-left: 40px;
+        }
+
+        #squarelogo {
+            display: inline;
+            margin-left: 150px;
+        }
+    </style>
+</head>
+
+<body id="box1">
+    <div>
+        <form action="" method="post" id="box2">
+            <div style="text-align: center;">
+                <h1>Login</h1>
+            </div>
+            <div>
+                <label for="">Username
+                </label>
+                <br>
+                <div id="logo">
+                    <span class="material-icons-outlined">
+                        person_outline
+                    </span>
+                    <input type="text" name="" id="inputbox" placeholder="Type your username">
+                </div>
+                <br><br>
+                <div><label for="">Password</label></div><br>
+                <div id="logo">
+                    <span class="material-icons-outlined" style="margin-bottom: 
+;">lock </span>
+                    <input type="password" name="" id="inputbox" placeholder="Type your 
+password">
+                </div>
+                <br><br>
+                <div style="margin-left: 250px;">
+                    <a href="">Forget Password?</a>
+                </div>
+                <br>
+                <div>
+                    <input type="submit" value="Login" id="submit">
+                </div>
+                <div>
+                    <p style="text-align: center;"> Or Sign Up Using </p>
+                </div>
+                <div id="squarelogo">
+                    <i class="fa fa-facebook-official fa-2x" aria-hidden="true" style="color: 
+navy;"></i>
+                    <i class="fa fa-twitter-square fa-2x" aria-hidden="true" style="color:rgb(0, 183, 255);"></i>
+                    <i class="fa fa-google-plus-square fa-2x" aria-hidden="true" style="color: 
+red;"></i>
+                </div>
+                <div>
+                    <p style="text-align: center;">have not account yet?</p>
+                </div>
+                <div style="text-align: center;"><a href="">SIGN UP</a> </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html

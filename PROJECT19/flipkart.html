@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">s
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS File/Style.css">
+    <title>Document</title>
+    <style>
+        body {
+            font-size: 14px;
+            background-color: #f1f3f6;
+            color: #212121;
+            line-height: 1.4;
+        }
+
+        .container {
+            width: 60%;
+            min-height: 200px;
+            max-height: 90vh;
+            background-color: rgba(0, 0, 0, .6);
+            margin: 100px auto;
+            border-radius: 5px;
+            align-items: stretch;
+            display: flex;
+            justify-content: center;
+            background-color: transparent grey;
+        }
+
+        .box {
+            margin: 0%;
+            padding: 0px;
+        }
+
+        #box1 {
+            height: 80vh;
+            width: 50%;
+            background-color: #516BEB;
+            position: relative;
+            justify-content: left;
+            align-self: flex-start;
+        }
+
+        h1 {
+            text-align: center;
+            color: whitesmoke;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        #p1 {
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 20px;
+            color: white;
+            margin: 0px 5px;
+        }
+
+        #box2 {
+            height: 80vh;
+            width: 50%;
+            background-color: white;
+        }
+
+        form {
+            display: block;
+        }
+
+        input {
+            width: 95%;
+            margin: 25px 5px 8px 8px;
+            border: none;
+            font-family: 'Roboto', sans-serif;
+            font-size: 14px;
+            color: #000;
+            border-bottom: 1px solid #e0e0e0;
+            align-self: center;
+            padding: 0px;
+        }
+
+        .ip1 {
+            width: 95%;
+            margin: 25px 5px 8px 8px;
+            border: none;
+            padding: 4px;
+        }
+
+        .ip2 {
+            width: 95%;
+            margin: 25px 5px 8px 8px;
+            border: none;
+            padding: 4px;
+        }
+
+        #tp {
+            margin: 29px 11px 11px 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 12px;
+            color: #807e7e;
+        }
+
+        #button {
+            background-color: #fb641b;
+            height: 45px;
+            font-size: large;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: whitesmoke;
+            border: none;
+            font-weight: bolder;
+            box-shadow: 7px 17px 28px -8px grey;
+        }
+
+        #button2 {
+            background-color: white;
+            height: 45px;
+            font-size: large;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #516BEB;
+            font-weight: bolder;
+            box-shadow: 7px 17px 28px -8px grey;
+            margin: 10px 10px 10px 10px;
+        }
+
+        #p2 {
+            color: rgba(0, 0, 0, .6);
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        #a01 {
+            color: #516BEB;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 12px;
+            text-align: center;
+            margin: 32px auto;
+        }
+
+        .img {
+            width: 300px;
+            height: 200px;
+            padding: 20px;
+            margin-left: 27px;
+        }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box" id="box1">
+            <div>
+                <h1>Login</h1>
+            </div>
+            <div>
+                <p id="p1"> Get access to your Orders, Wishlist and
+                    Recommendations </p>
+            </div>
+            <br><br><br><br><br>
+            <br>
+            <div><img src="./login_img_c4a81e.png" alt="" class="img"></div>
+
+
+        </div>
+        <div class="box2" id="box2">
+            <form action="login form">
+                <div class="ip1">
+                    <input type="email" type="number" value="" placeholder="Enter the Email/Mobile Number">
+                </div>
+                <div class="ip2">
+                    <input type="password" value="" placeholder="Enter 
+Password">
+                </div>
+                <div id="tp">
+                    By continuing, you agree to Flipkart's
+                    <a href="">Terms of Use</a> and <a href="">Privacy
+                        Policy.</a>
+                </div>
+                <div>
+                    <input type="button" value="Login" id="button">
+                </div>
+                <div id="p2">
+                    <p>OR</p>
+                </div>
+                <div>
+                    <input type="button" value="Request OTP" id="button2">
+                </div>
+                <div id="a01"><a href="">New to flipkart? create an
+                        account</a></div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

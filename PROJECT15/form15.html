@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+            background-attachment: fixed;
+
+        }
+        .box{
+        background-color: white;
+        height: 460px;
+        width: 260px;
+        margin:21px 0px 0px 460px;
+        padding: 1PX 14px 42px 32px ;
+        }
+        label{
+            font-family:cursive;
+        }
+        h2{
+            font-family:cursive;
+            text-align: center;
+        }
+        select{
+            border-left: none;
+            border-right: none;
+            border-top:none;
+            font-family:cursive;
+        }
+        textarea{
+            border-left: none;
+            border-right: none;
+            border-top:none;
+        }
+        input{
+            color: white;
+            background-color: #FC00FF;
+            background-image: linear-gradient(90deg, #FC00FF 0%, #00DBDE 100%);
+            border-radius: 20px;
+            font-family:cursive;
+            width: 243px;
+            height: 30px;
+            border: none;
+            text-align: center;
+            
+        }
+        ::placeholder{
+            font-family:cursive;
+        }
+      
+        label{
+            font-size: 12px;
+            color: gray;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="box">
+        <form action="" method="post">
+           <div><h2>Say Hello!</h2></div>
+           <div><label for="">Your Name</label></div>
+           <div><textarea name="" id="" cols="30" rows="0" placeholder="Enter Your name"></textarea></div>
+           <br>
+           <div><label for="">Email</label></div>
+           <div><textarea name="" id="" cols="30" rows="2" placeholder="Enter your email address"></textarea></div>
+            <br>
+           <div><label for="">Needed Services</label></div>
+           <div><select></section><option selected value="">Choose Services</option>
+            <option value=""></option></select></div>
+            <br>
+         <div><label for="">Budget</label></div>
+         <div><select name="" id=""><option selected value="">Select Budget</option>
+            <option value="" style=""></option></select></div>
+            <br>
+        <div><label for="">Message</label></div>
+           <div><textarea name="" id="" cols="30" rows="4x" placeholder="Your message here...."></textarea></div>
+        </form>
+        <br>
+    <div>
+        <input type="submit" value="Submit">
+    </div>
+    </div>
+</body>
+</html>
